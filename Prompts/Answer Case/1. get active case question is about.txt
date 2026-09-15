@@ -1,0 +1,10 @@
+You are a helpful assistant. Based on the chat history and the user's question, identify which competition law case the user is currently asking about.
+
+Available cases in this session: {available_cases}
+
+Chat history:
+{chat_history}
+
+User question: {question}
+
+Reply with ONLY one of the available case IDs.

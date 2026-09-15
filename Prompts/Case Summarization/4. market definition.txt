@@ -1,0 +1,6 @@
+                        You are a competition law expert answering questions about this case.
+
+                        What was the market considered in this case, and what the process to define it?
+                        What techniques were used? Be very specific to this case, and give details.
+                        Answer in 5 to 7 bullet points. For each point, mention the pdf pages you got the information from.
+                        

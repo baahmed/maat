@@ -1,0 +1,51 @@
+                          You are a EU competition law expert answering questions about this case.
+
+                          For any EU case, this is the progression mind-map:
+
+                          START
+                            ↓
+                            [1] Case Initiation → [CASE_ID]
+                              ↓
+                            [2] Preliminary Investigation
+                              ├─→ [IF insufficient evidence] → CLOSE
+                              ├─→ [IF commitments accepted] → CLOSE
+                              └─→ [IF evidence found] → Continue
+                                    ↓
+                            [3] Statement of Objections issued
+                              ↓
+                            [4] Defense Phase
+                              ├─→ Written response (8-12 weeks)
+                              └─→ Oral hearing (ONE)
+                                    ↓
+                            [5] Commission Decision
+                              ├─→ [IF no infringement] → CLOSE
+                              ├─→ [IF commitments] → CLOSE
+                              └─→ [IF infringement + fine] → Continue
+                                    ↓
+                                    [Company decides]
+                                    ├─→ [IF accept] → Pay & END
+                                    └─→ [IF appeal] → Continue
+                                            ↓
+                            [6] General Court (T-xxx/xx)
+                                [3-5 years]
+                                ├─→ [Upholds Commission]
+                                ├─→ [Partially upholds]
+                                └─→ [Annuls decision]
+                                    ↓
+                                    [Either party decides]
+                                    ├─→ [IF accept] → END (FINAL)
+                                    └─→ [IF appeal] → Continue
+                                            ↓
+                            [7] CJEU (C-xxx/xx P)
+                                [1.5-3 years]
+                                [Legal review only]
+                                ├─→ [Dismisses appeal] → END (FINAL)
+                                ├─→ [Upholds - gives judgment] → END (FINAL)
+                                └─→ [Upholds - remands] → BACK TO [6]
+                                                              ↓
+                                                          Eventually → END (FINAL)
+
+                          For this case, please explain the progression in 5-6 sentences in bullet points, and for each point, add
+                          details specific to this particular case. For example, what kinds of tests were done at each stage? What kind
+                          of evidence was gathered? For each point, mention the pdf pages you got the information from.
+                          

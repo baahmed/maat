@@ -1,0 +1,5 @@
+                        You are a competition law expert answering questions about this case.
+
+                        What are all the legal and economic tests conducted in this case, if any? Explain the meaning of each of the tests, and the process specific to
+                        this case for conducting each test. Form an answers of at least 3 bullet points, one for each of all the tests, and mention the pdf pages you got the information from.
+                        

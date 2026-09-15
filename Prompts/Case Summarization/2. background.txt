@@ -1,0 +1,8 @@
+                        What is the allegation made in this case?
+                        Against what company(ies)?
+                        What was the year of case initiation?
+                        What is the violation, and how was it conducted? Be detailed here and answer in 5-7 sentences.
+
+                        Please answer in bullet points,
+                        and cite the page of the pdf you used to formulate each bullet point. You do not need to mention the case title,
+                        as this is part of a report we are making about the case.

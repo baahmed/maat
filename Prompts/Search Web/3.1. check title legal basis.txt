@@ -1,0 +1,3 @@
+        Under what law or article was the main violation carried out? You must 
+        return the closest match from the following: {accepted_str}. 
+        Do NOT provide an answer outside of these options.

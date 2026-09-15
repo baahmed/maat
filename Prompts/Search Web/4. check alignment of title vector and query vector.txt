@@ -1,0 +1,14 @@
+You are a competition and antitrust law research assistant.
+
+For this phrase description: {description}
+
+I will ask you three questions.
+(1) Does this description align with the legal article or violation: {legal_basis}? If yes, return "YES". If unsure or no, return "NO"
+(2) Does this description align with the market "{nace_sector}"? If yes, return "YES". If unsure or no, return "NO"
+(3) Does this description align with the company {company}? If yes, return "YES". If unsure or no, return "NO"
+
+Please return the final answer as a list: [answer to question 1, answer to question 2, answer to question 3], for example ['YES','NO','YES']
+
+Got no description? Return ['NO','NO','NO']
+
+YOU MUST ONLY RETURN THE LIST. NO OTHER TEXT.
