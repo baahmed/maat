@@ -1,0 +1,76 @@
+Queried String,Recall (# returned cases/# all cases),Error Reason
+armoricaine de restauration et de travaux,0.00,parenthesis text not matched - armoricaine de restauration et de travaux (art) 
+service dÃ©partemental dâ€™incendie et de secours du var,1.00,
+itm entreprises,0.98,"irregular punctuation like , & in addition to typos and parenthesis text not matched."
+puig prestige et beauté,1.00,
+recordati industria chimica e farmaceutica,1.00,
+premap seguridad y salud,1.00,
+vernette et prader,1.00,
+compagnie de services et d'environnement,1.00,
+koesio,0.60,"company name is spelled once in english and another time in french. In addition, its aliases need to be added to the alias list."
+société de la tour eiffel,1.00,
+muruets,0.00,"sometimes ""societe"" is dropped from the name, and at other times it is a fundamental part of the name."
+anonyme de manutention portuaire ,0.00,parenthesis text not matched.
+société greece 131,1.00,
+société calao 214,1.00,
+geste,1.00,
+saar entsorgung,1.00,
+"supercor, s.a.",1.00,
+project navis,0.00,"missed quotation marks, project ""navis"""
+prokent,1.00,
+la societe sinpol,1.00,
+meta platforms,0.96,"""societe meta platform"" has not been recognized"
+activision blizzard,1.00,
+courtaulds,1.00,
+s.a. citra,1.00,
+weldom,1.00,
+societe latécoère,1.00,
+garces recuperacion,1.00,
+malakoff médéric,0.83,"the company appears with ""groupe"" prefixed and without it as two separate canonical forms."
+torrent fimer,1.00,
+compañia norteña bebidas gaseosas,1.00,
+carrosseries basséennes,1.00,
+bonifico istantaneo,1.00,
+supermercati tosano,1.00,
+the eat out group,1.00,
+comune di venafro,1.00,
+"société pour l'administration du droit de reproduction mécanique des auteurs, compositeurs et éditeurs",0.00,all surface forms appear with abbreviations following the name with different punctuation styles in paranthesis.
+tomcat,1.00,
+onstar,1.00,
+groupe réunica,1.00,
+rossetto trade,1.00,
+grupo rossignol,1.00,
+sacem,0.80,"missed the case with the full name, société des auteurs compositeurs et editeurs de musique (sacem)"
+kme germany ag,1.00,
+aok westfalen-lippe,0.50,"there are two aok - aok westfalen-lippe, aok nordost - and both have separate canonical forms."
+bimédia,0.33,"there are two canonical forms, one with groupe, and one without."
+c.e.e.i.,1.00,
+maréquipement,1.00,
+snatp,1.00,
+pernod ricard denmark a/s,0.67,"pernod ricard appears in two other canonical forms that include other companies with it, separated by a /."
+philippe emond,1.00,
+auto camping-car service,1.00,
+sté samse,0.50,"another canonical form appeared without ""ste"""
+société chadrac distribution,1.00,
+stellagroup,1.00,
+ondulato trevigiano,1.00,
+grupo cronos distribucion integral,1.00,
+blancofan,1.00,
+institut arnault tzanck,1.00,
+rodamco retail deutschland bv,1.00,
+comune di ragusa,1.00,
+itm alimentaire,0.00,"appears with both abbreviations and locations as separate canonical forms: itm a centre est, itm a o, itm a ouest, itm alimentaire centre-ouest, itm alimentaire est, itm alimentaire sud-ouest, itm alimentairelugos"
+urblet,0.50,"appears in another canonical form with ""societe"""
+actif immobilier d'edf à usage de bureaux,1.00,
+"sport zone canarias, s.l.",1.00,
+"grupo trebalia, s.l.",1.00,
+etablissements lhospital,1.00,
+comune di numana,1.00,
+a.v.i.s.a.,0.00,"searched as abbreviation, stored in canonical form with the full name: a.v.i.s.a. -automoviles y vehiculos industriales s.a.-"
+bemis,1.00,
+veolia propreté,1.00,
+ergon capital partners iv,1.00,
+comune di fossacesia,1.00,
+allthi,1.00,
+general de servicios itv,1.00,
+betearte,1.00,

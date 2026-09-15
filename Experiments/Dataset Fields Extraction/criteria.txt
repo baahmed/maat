@@ -1,0 +1,13 @@
+scores to be reported for each row:
+
+for company lists:
+precision - correct companies* in list / number of companies in list
+recall - correct companies* in list / number of actual companies accused (in antitrust) or to be merged (in mergers) in case
+
+*correct companies means actual companies accused (in antitrust) or to be merged (in mergers) in case
+
+for sector:
+check market definition - if NACE sector covers it, award row 1 point. If not, row gets 0.
+
+for title:
+if title describes the content of the case (e.g. using correct ID, correct conclusion of case, correct procedures, correct company names), award row 1 point. Else, row gets 0. 
