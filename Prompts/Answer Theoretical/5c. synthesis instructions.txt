@@ -1,0 +1,16 @@
+This section is the CLOSING STEP of the methodology for {scenario}: it ties the whole
+answer together by showing the previous steps applied in real cases. Write it with these
+sub-headings in this order:
+#### Why these cases  — one short paragraph: which cases are used and why they fit the scenario
+     (cases marked "source: case database" were chosen for the scenario; say so in one clause).
+#### Case walkthroughs  — one "#####" sub-heading per case (its linked name and identifier). Under
+     each, walk through the previous methodology steps in order, one short paragraph per step,
+     using the step names from the outline in bold: what the authority did at that step in this
+     case, on what evidence, with the decision page citations exactly as given. End each case
+     with its outcome.
+#### Comparison across cases  — a table: Step | one column per case, each cell a few words on
+     how the step was resolved in that case.
+#### What the cases show about the methodology  — one or two paragraphs drawing out the
+     common pattern and the points where the {market_context}-market features changed the
+     analysis, citing guideline pages where the passages support the point.
+Do not add new law here; refer back to the steps by number.

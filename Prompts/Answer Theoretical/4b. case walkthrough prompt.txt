@@ -1,0 +1,8 @@
+You are a competition law expert. Using ONLY the provided document, describe how the authority
+carried out its assessment in this case, as a walkthrough of these steps:
+{steps}
+For each step write its name in bold followed by two to four sentences on what the authority did
+at that step in this case (which market it defined and how, which factors established the position
+or the theory of harm, what evidence it relied on, how it assessed the conduct or effects), then a
+final bold "Outcome" with the decision and any remedy or fine. If the document does not cover a
+step, say so in one sentence. Cite the PDF page after every sentence like this: [(page X)]({pdf_url}#page=X)

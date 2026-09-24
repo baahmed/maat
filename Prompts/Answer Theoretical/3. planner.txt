@@ -1,0 +1,93 @@
+You are planning a long, expert-level answer to a competition law question. The answer
+will be written section by section from official EU documents (listed below with their
+tables of contents), so your job is to decide the sections, which documents each one
+draws on, and what to retrieve for it.
+
+Question: {question}
+Analysis: {analysis}
+
+Rules for the outline:
+A. Part "concepts": one section per concept in the analysis, in order. Each explains the
+   concept from the guidelines: definition, legal source, essential elements, and the
+   document sections that govern it (for example "digital market" is a Market Definition
+   Notice topic; "dominance" is an Article 102 Guidelines topic; "resale price maintenance"
+   is Vertical Guidelines section on hardcore restrictions plus the VBER).
+B. Part "combination" is the METHODOLOGY: the ordered steps an authority applies to the
+   scenario in the question, one section per step, in the order the guidelines apply them.
+   It is not a set of topics; it is the procedure a case handler would follow. Each step
+   section must (i) say what the step establishes, (ii) give the general approach under
+   the guidelines, (iii) show how it is adapted to the {market_context}-market scenario,
+   as a comparison inside the step when market_context is not "none", (iv) illustrate the
+   step with cases, and (v) say what it hands to the next step ("step_output"). Do NOT
+   create a separate comparison section: the traditional-versus-{market_context}
+   comparison lives inside every step where it matters.
+   Steps by question type:
+   - PROCEDURE: the assessment steps in order, at least three, e.g. for dominance:
+     "Step 1: Define the relevant market" (product and geographic; digital: multi-sided
+     platforms, zero-price services, ecosystems), "Step 2: Assess market shares and
+     concentration", "Step 3: Assess barriers to entry and expansion, network effects,
+     switching costs and data", "Step 4: Assess countervailing buyer power and
+     durability". Never fold all steps into one section.
+   - CONCEPT: the steps for assessing the practice, at least four, e.g. for a restraint:
+     "Step 1: Identify the restraint and its forms", "Step 2: Classify it (hardcore /
+     block exemption / by object or by effect) and the theories of harm" (kind "body"),
+     "Step 3: Assess pro-competitive rationales and exceptions" (kind "balance"; the
+     practice is not always anticompetitive), "Step 4: Legal assessment" (kind
+     "legal_assessment"), "Step 5: Economic assessment" (kind "economic_assessment").
+   - TAXONOMY: the steps of the review in which the categories are applied, at least
+     three, e.g. for mergers: "Step 1: Define the markets and the counterfactual",
+     then one step per category as the most relevant guideline organises them (read its
+     table of contents: horizontal non-coordinated, coordinated, vertical, conglomerate
+     and ecosystem, dynamic and innovation effects), each step being "apply this theory:
+     mechanism, evidence, {market_context}-specific adaptation, cases", and a final step
+     on efficiencies and remedies. Cross-cutting themes such as data, network effects or
+     tipping are NOT their own steps: they are mechanisms inside the steps, and each
+     purpose must say where they go.
+B2. Worked examples. The LAST step of the methodology is always a synthesis step of kind
+   "synthesis", titled like "Step N: Worked examples: how the assessment was carried out
+   in real cases" (say "{market_context}-market cases" when market_context is not "none").
+   Its purpose: take two or three real cases matching the scenario and walk every previous
+   step through each of them (how the market was defined, how the position or the theory
+   of harm was established, how the conduct or effects were assessed, the outcome), then
+   compare the cases in a table (Step | Case 1 | Case 2 | Case 3) and draw out what they
+   show about the methodology. Give in "db_keywords" 4-8 search words used to pick the
+   cases from the case database: company or product names typical of the scenario in EU
+   practice when there is a market context (e.g. Google, Amazon, Apple, Microsoft, Meta,
+   Booking for digital), otherwise words that describe the practice as decisions describe
+   it (e.g. "resale price", "minimum price", "fixed retail price"). Give in "db_article"
+   the legal basis the cases must have: "102" for dominance questions, "101" for
+   agreements, "Merger" for merger questions.
+C. Technical terms. For every section list in "terms" the technical terms it will use
+   that a reader must not be assumed to know (e.g. two-sided market, multi-homing,
+   ecosystem, network effects, tipping, SSNIP test, SSNDQ, self-preferencing,
+   counterfactual, foreclosure). The composer explains each on first use from the
+   guidelines, so include them as retrieval queries too.
+D. Between {min_sections} and {max_sections} sections in total. Target lengths: concept
+   sections 250-400 words, methodology steps 500-750 words.
+E. For each section list 2-4 retrieval queries phrased the way the documents phrase the
+   topic, and the doc_ids to search (2-4 documents; include the long economic study and
+   its annexes for merger topics).
+F. needs_cases is true for every methodology step and false for concept sections.
+
+G. Coherence. Give a "thread": the answer's through-line in two or three sentences, the
+   argument that every section advances (for example: the legal test is unchanged, but
+   market definition and the evidence of durable power are adapted to platform features).
+   For every section give "link": one sentence saying how it follows from the previous
+   section and what it hands to the next. Sections must read as steps of one argument,
+   not as independent notes.
+
+Documents available (doc_id, title, kind) with their tables of contents:
+{documents}
+
+Return JSON only:
+{{"thread": "...",
+  "scenario": "<the scenario the methodology is applied to, in a few words, e.g. 'assessing dominance of a digital platform'>",
+  "sections": [
+  {{"id": "s1", "part": "concepts" | "combination", "kind": "concept" | "body" | "balance" | "legal_assessment" | "economic_assessment" | "synthesis",
+    "title": "...", "concept": "<concept term or null>", "purpose": "<2-3 sentences: what this section must cover and where cross-cutting themes go>",
+    "link": "<how it follows from the previous section and what it hands to the next>",
+    "step_output": "<for methodology steps: what the step produces for the next step; empty for concept sections>",
+    "terms": ["..."],
+    "db_keywords": ["..."], "db_article": "102" | "101" | "Merger" | "",
+    "doc_ids": ["..."], "queries": ["...", "..."], "needs_cases": true, "target_words": 600}}
+]}}

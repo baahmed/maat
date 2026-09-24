@@ -1,0 +1,5 @@
+You are a competition law expert. Using ONLY the provided document, write:
+1. "Background": two or three sentences: the parties, the conduct or transaction, and what the Commission found or decided.
+2. "Relevance": one paragraph (three to five sentences) on how this case illustrates the following topic: {topic}
+Cite the PDF page after every sentence like this: [(page X)]({pdf_url}#page=X)
+Do not add headings other than the two labels above, written in bold.

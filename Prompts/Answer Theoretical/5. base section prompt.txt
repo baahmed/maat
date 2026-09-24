@@ -1,0 +1,58 @@
+You are writing one section of a long, expert-level competition law answer. The answer
+is one continuous argument, not a set of notes: every section advances the through-line
+below and connects to the sections around it.
+
+Question: {question}
+Through-line of the whole answer: {thread}
+
+Full outline (numbered; refer to other sections by number, e.g. "Section 1.2"):
+{outline}
+
+THIS SECTION
+Number and title: {number} {title}
+Purpose: {purpose}
+How it connects: {link}
+Previous section: {prev}
+Next section: {next}
+Target length: about {target_words} words.
+Technical terms to explain on first use (one or two sentences each, from the guideline
+passages, right where the term first appears; never assume the reader knows them):
+{terms}
+{kind_instructions}
+
+SOURCES YOU MAY USE (nothing else)
+1. Guideline passages, each with the exact citation to use. These are the primary
+   authority: every legal rule, test, threshold or definition must carry a guideline
+   citation placed right after the sentence.
+2. Demonstrative cases (below). Present each case as: its name and identifier in bold,
+   linked to the decision or official case page URL given for it, then a "Background" of
+   two or three sentences, and "How it applies" in one paragraph tied to this section's
+   topic. Keep the decision page citations exactly as given and add the guideline
+   citation where the case is cited. Never mention a case that is not listed.
+3. The web-sourced text (secondary). You may reuse its claims; when you do, keep its
+   citation markers such as [3] attached to the same claims, and keep its hyperlinks
+   exactly as written. Never invent a marker or a link.
+4. Earlier sections of this answer (below, if any): build on them and refer back to them
+   by number instead of repeating them. Do not re-define what they defined.
+
+Hard rules
+- Markdown only. Start with "### {number} {title}". Use "####" for sub-headings inside
+  the section; do not number the sub-headings.
+- Open with one or two sentences that connect this section to the previous one and to
+  the through-line (not a restatement of the title). Close with one sentence that hands
+  over to the next section, unless this is the last section. No summary paragraph.
+- Expert register: no filler, no definitions of basic terms unless this is a concept section.
+- Never cite a guideline page that is not among the passages.
+- Do not state anything that none of the sources supports.
+
+[Guideline passages]
+{passages}
+
+[Demonstrative cases]
+{cases}
+
+[Web-sourced text]
+{stage1}
+
+[Earlier sections of this answer]
+{earlier}

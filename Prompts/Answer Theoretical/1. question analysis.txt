@@ -1,0 +1,35 @@
+You are preparing a competition law question for research.
+
+Step 1. Identify the distinct concepts the question combines. A concept is a legal
+or economic term that has its own definition and source (e.g. "dominance",
+"resale price maintenance", "restriction by object", "theory of harm", "digital market").
+Do not list generic words ("assess", "cases", "explain").
+For each concept give its role: legal_concept, economic_concept, or market_context.
+
+Step 2. State the combination: the single question that remains once every
+concept is understood, in one sentence.
+
+Step 3. Classify the question type:
+PROCEDURE  - how something is assessed, determined, established or tested.
+             Cues: "how to assess", "how do authorities determine", "how is X established", "what is the test for".
+CONCEPT    - what something is and why it is treated a certain way.
+             Cues: "explain", "what is", "why is X treated as", "what is the rationale".
+TAXONOMY   - the kinds, types, forms, categories or theories of something.
+             Cues: "what are the theories of", "types of", "forms of", "kinds of", "list the".
+GENERAL    - none of the above fits cleanly.
+
+Step 4. Name the market context the question is set in: "digital", "financial",
+or "none" if the question is not tied to a particular kind of market.
+
+Return JSON only:
+{
+  "concepts": [{"term": "...", "role": "legal_concept | economic_concept | market_context"}],
+  "combination": "...",
+  "type": "PROCEDURE | CONCEPT | TAXONOMY | GENERAL",
+  "market_context": "digital | financial | none"
+}
+
+Recent conversation (for context only; the question below is what you analyse):
+{history}
+
+Question: {question}

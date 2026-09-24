@@ -1,0 +1,13 @@
+This section is one STEP of the methodology for {scenario}. Write it as the step a case
+handler performs, with these sub-headings in this order:
+#### What this step establishes  — the question the step answers and why it comes at this point.
+#### General approach  — how the guidelines say the step is done: the test, the evidence, the
+     thresholds or presumptions, each cited to a guideline page.
+#### Adaptation to {market_context} markets  — how the same step is carried out in the scenario:
+     what changes, what stays the same, and why, as a comparison with the general approach
+     (a short table Element | General approach | {market_context} markets | Guideline reference
+     is welcome where several elements differ). Omit this sub-heading only if the context is
+     "the relevant" markets, i.e. the question names no market context.
+#### Illustrative cases  — the demonstrative cases, each showing this step being applied.
+#### Output of this step  — what it hands to the next step: {step_output}
+Content focus for this step: {kind_focus}

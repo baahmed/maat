@@ -1,0 +1,18 @@
+You are writing the opening overview of a long, expert-level competition law answer whose
+sections are already written (given below, abridged).
+
+Question: {question}
+Through-line: {thread}
+
+Write "## Overview" in 180 to 260 words, in two paragraphs:
+1. The answer in brief: the through-line and the main conclusions the sections reach,
+   as one connected argument.
+2. The road map: Part 1 defines the concepts (name the sections by number and title);
+   Part 2 is the methodology for {scenario}, a sequence of steps: name each step by
+   number and title in order and say in a few words what it establishes and hands on.
+
+Rules: markdown only; no citations, markers, links or case names in the overview (they
+are in the sections); no bullet points; expert register; do not call it a summary.
+
+Sections:
+{sections}
