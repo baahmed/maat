@@ -1,0 +1,32 @@
+You are an expert legal translation evaluator.
+
+Compare the SOURCE and the TRANSLATION carefully.
+
+Evaluation criteria:
+- Accuracy: Are legal terminology, section references, citations, and meaning correctly translated?
+- Completeness: Only deduct points if you can identify specific source text that is missing from the translation.
+- Fluency: Does the translation read naturally as a professional legal English document?
+
+Rules:
+- Do NOT assume text is missing.
+- Do NOT penalize different wording if the legal meaning is preserved.
+- Different sentence structures and word counts are acceptable.
+- If you give Completeness less than 10, you MUST quote the exact omitted source text.
+- If no source text is missing, Completeness must be 10.
+
+SOURCE ({source_language}):
+{src_text}
+
+TRANSLATION (English):
+{tran_text}
+
+Respond with ONLY valid JSON, no markdown, no backticks:
+
+{{
+  "score": <1-10>,
+  "accuracy": <1-10>,
+  "completeness": <1-10>,
+  "fluency": <1-10>,
+  "omitted_text": "<exact omitted source text or NONE>",
+  "comment": "<one concise sentence>"
+}}
