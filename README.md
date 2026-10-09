@@ -32,15 +32,15 @@ The case documents are indexed with LlamaIndex (about 1,024-token chunks with 20
 
 ## Dataset
 
-[`competition_decisions.csv`](competition_decisions.csv) consolidates **11,489 decisions** from five authorities, de-duplicated across languages with English preferred:
+[`competition_decisions.csv`](competition_decisions.csv) consolidates **10,317 decisions** from five authorities, de-duplicated across languages with English preferred:
 
 | Jurisdiction | Source | Decisions |
 |---|---|---|
 | French | Autorité de la concurrence | 5,903 |
 | Spanish | CNMC | 2,292 |
-| Italian | AGCM | 2,041 |
-| EU | European Commission (DG COMP) | 711 |
-| German | Bundeskartellamt | 542 |
+| Italian | AGCM | 1,048 |
+| EU | European Commission (DG COMP) | 710 |
+| German | Bundeskartellamt | 364 |
 
 Data collection respected each site's `robots.txt` and throttled requests. Each competition authority approved building and sharing the database.
 
@@ -65,7 +65,7 @@ Non-English decisions were translated to English with a few-shot `gpt-4o-mini` p
 
 ```
 .
-├── competition_decisions.csv          # Combined case database (11,489 decisions)
+├── competition_decisions.csv          # Combined case database (10,317 decisions)
 ├── adlc_nace_sector_map.xlsx          # French sector → NACE mapping
 ├── Translations/                      # English translations of non-English decisions
 ├── Theoretical Guidelines/            # EU guidelines used by answer_theoretical
